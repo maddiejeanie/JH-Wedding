@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
@@ -51,8 +52,8 @@
       <section id="rsvp">
     
         <form id="rsvpform" class="flex flex-col mx-auto">
-          <input class="border-2 border-black text-black px-6 py-2 rounded-2xl focus:border-black" name="name" id="name" type="text" placeholder="Type your full name" />
-          <button class="my-4 bg-black text-white rounded-2xl px-6 py-2" type="submit" id="submit">RSVP</button>
+          <input class="border-2 border-black text-black text-md py-2 rounded-2xl focus:border-black" name="name" id="name" type="text" placeholder="Type your full name" style="text-align: center;" />
+          <button class="my-4 bg-black text-white rounded-2xl py-2" type="submit" id="submit">RSVP</button>
         </form>
         
         <div id="success" class="hidden">
